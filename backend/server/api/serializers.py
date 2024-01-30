@@ -10,5 +10,5 @@ class CategorySerializer(serializers.ModelSerializer):
 class GoodSerializer(serializers.ModelSerializer):
     class Meta:
         model = Good
-        fields = ("category_id", "name", "price")
+        fields = ("id", "category_id", "name", "price")
     
